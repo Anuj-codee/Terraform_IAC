@@ -1,0 +1,19 @@
+# Terraform working directory and provider plugins
+.terraform/
+
+# Terraform state (may contain infrastructure details)
+*.tfstate
+*.tfstate.*
+
+# Crash logs and local override files
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive local variable files; the committed example files are explicitly retained.
+*.tfvars
+!terraform.tfvars.dev
+!terraform.tfvars.prod
